@@ -1,0 +1,115 @@
+V "GNAT Lib v2013"
+M P W=b
+A -fstack-check=specific
+A -g
+A -gnaty3
+A -gnatyM80
+A -gnatya
+A -gnatyb
+A -gnatye
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyx
+A -gnatwa
+A -gnato
+A -g
+A -gnat05
+A -gnatc
+A -gnatA
+P NO ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U dispatcher%b		dispatcher.adb		d4f0975b OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-charac.ads		20130417131018 2d3ec45b
+D a-chahan.ads		20130417131018 1d381dcd
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D dispatcher.adb	20140212023104 8c73102b
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 10|4r6 5r6 6r6 7r6 24r10 25r20 38r13 41r13 44r10 55r10 57r13
+. 59r16 60r16 61r16 62r16 63r16 67r18 68r16 69r16 72r7 90r4 91r4 92r4 93r4
+. 94r4 95r4 96r4 97r4 98r4 99r4 100r4 101r4 102r4 103r4 132r4 133r4 135r4
+. 137r4 145r4 146r4 147r4 148r4 149r4
+X 2 a-charac.ads
+16K13*Characters 18e19 10|6r10 25r24
+X 3 a-chahan.ads
+36K24*Handling 150e28 10|6w21 25r35
+63V13*To_Upper{character} 10|25s44
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 10|5w10 57r17 60r20 62r20
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 10|7w10 67r22
+27X4*Data_Error 10|67r36
+X 8 a-textio.ads
+49K13*Text_IO 471e16 10|4w10 24r14 38r17 41r17 44r14 55r14 59r20 61r20 63r20
+. 68r20 69r20 72r11 90r8 91r8 92r8 93r8 94r8 95r8 96r8 97r8 98r8 99r8 100r8
+. 101r8 102r8 103r8 132r8 133r8 135r8 137r8 145r8 146r8 147r8 148r8 149r8
+166U14*New_Line 10|72s19 91s16
+169U14*Skip_Line 10|44s22 69s28
+206U14*Get 10|24s22
+242U14*Put 10|59s28 61s28
+263U14*Put_Line 10|38s25 41s25 55s22 63s28 68s28 90s16 92s16 93s16 94s16
+. 95s16 96s16 97s16 98s16 99s16 100s16 101s16 102s16 103s16 132s16 133s16
+. 135s16 137s16 145s16 146s16 147s16 148s16 149s16
+X 9 a-tiinio.ads
+55U14*Get 10|57s33[5|18]
+65U14*Put 10|60s36[5|18] 62s36[5|18]
+X 10 dispatcher.adb
+10U11*Dispatcher 10b11 155l5 155t15
+12E9 Question_Number 12e43 16r55
+12n29 First{12E9} 27r28 37r24 141r39
+12n36 Second{12E9} 30r28 152r39
+15U14 Validate_Letter_Input 15b14 15<37 16>37 47l8 47t29 140s4 151s4
+15e37 Letter{character} 24m27 25m10 25r54 26r14 26r30 26r46 29r17 29r33 29r49
+. 29r65 140r27 151r27
+16e37 Question{12E9} 27r17 30r17 37r13 141r27 152r27
+18b7 Continue{boolean} 28m13 31m13 34r20
+49U14 Validate_Integer_Input 49b14 49>38 50>38 51>38 52<38 73l8 73t30 83s4
+. 105s4 112s4 119s4
+49s38 User_Instruction{string} 55r32 84r7 106r7 113r7 120r7
+50i38 Low_End{natural} 58r31 60r41 85r7 108r7 115r7 122r7
+51i38 High_End{natural} 58r57 62r41 86r7 109r7 116r7 123r7
+52i38 Input_Value{natural} 57m38 58r16 58r42 87r7 110r7 117r7 124r7
+76i4 Number_Of_Trains{natural} 87m27
+77i4 Train_Type{natural} 110m27
+78i4 Train_Starting_Block{natural} 117m27
+79i4 Caboose_Starting_Block{natural} 124m27
+80e4 User_Response{character} 140m39 151m39
+

@@ -1,0 +1,125 @@
+V "GNAT Lib v2013"
+M P W=b
+A -fstack-check=specific
+A -g
+A -gnaty3
+A -gnatyM80
+A -gnatya
+A -gnatyb
+A -gnatye
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyx
+A -gnatwa
+A -gnato
+A -g
+A -gnat05
+A -gnatc
+A -gnatA
+P NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U test_layout_search%b	test_layout_search.adb	3996b81b OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_io%s
+W ada.text_io.integer_io%s
+W layout%s		layout.adb		layout.ali
+W layout.search%s	layout-search.adb	layout-search.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D a-tienio.ads		20130417131022 fc618ae6
+D a-tiinio.ads		20130417131022 aa04e5d6
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D layout.ads		20140214022212 3bac5006
+D layout-search.ads	20140214022206 cad32a5c
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D test_layout_search.adb  20140214022514 06cfbe31
+X 1 ada.ads
+16K9*Ada 19e8 23|3r6 4r6 9r28 10r30 11r31 13r34 27r7 29r7 40r10 42r13 43r13
+. 45r13 47r13 50r10 52r13 53r13 55r13 57r13 60r10 63r7 64r7
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|45] 23|4w10 42r17 52r17
+X 6 a-textio.ads
+49K13*Text_IO 471e16 23|3w10 9r32 10r34 11r35 13r38 27r11 29r11 40r14 43r17
+. 45r17 47r17 50r14 53r17 55r17 57r17 60r14 63r11 64r11
+166U14*New_Line 23|47s25 57s25
+206U14*Get 23|64s19
+242U14*Put 23|27s19 29s19 43s25 45s25 53s25 55s25 63s19
+263U14*Put_Line 23|40s22 50s22 60s22
+X 7 a-tienio.ads
+44E9 Enum 23|11r59 13r62
+46k21*Enumeration_IO 75e31 23|11r43 13r46
+60U14 Put 23|46s25[11] 56s28[13]
+X 8 a-tiinio.ads
+45k21*Integer_IO 84e27 23|9r40 10r42
+55U14 Get 23|28s16[9] 30s16[9]
+65U14*Put 23|42s33[3|18] 44s22[9] 52s33[3|18] 54s24[10]
+X 11 layout.ads
+4K9*Layout 97e11 23|5w6 6r6 6r30 9r52 10r54 12r7 14r7 16r26 17r26 18r26 19r26
+. 32r7
+7E9*Block_Polarity 7e45 23|12r14
+9I9*Turnout_ID<short_short_integer> 23|10r61
+11I9*Block_ID<short_short_integer> 23|9r59 16r33 17r33
+17E9*Turn_Choice 17e45 23|14r14
+X 12 layout-search.ads
+1K16*Search 84e18 23|6w13 6r37 18r33 19r33 32r14
+15i10*Block{11|11I9} 23|44r54
+16e10*Direction{11|7E9} 23|46r57
+18A9*Block_Array(13R9)<integer>
+24R9*Block_List 28e17 23|18r40
+26i10*Size{natural} 23|41r41 66m20
+27a10*Items{18A9} 23|44m40 46m43
+36i10*Turnout{11|9I9} 23|54r60
+37e10*Direction{11|17E9} 23|56r64
+39A9*Turnout_Array(34R9)<integer> 23|6r44
+45R9*Turnout_List 49e17 23|19r40
+47i10*Size{natural} 23|51r45 67m22
+48a10*Items{39A9} 23|54m44 56m48
+54U14*Blocks_Beneath 23|32s21
+54i30 Caboose{11|11I9} 23|33r37
+55i30 Loco{11|11I9} 23|32r37
+56r30 Blocks{24R9} 23|34r37
+57r30 Turnouts{45R9} 23|35r37
+58b30 Success{boolean} 23|36r37
+X 23 test_layout_search.adb
+8U11*Test_Layout_Search 8b11 71l5 71t23
+9K12 Block_IO[8|45] 28r7 30r7 44r13
+10K12 Turnout_IO[8|45] 54r13
+11K12 Polarity_IO[7|46] 46r13
+13K12 Turn_Choice_IO[7|46] 56r13
+16i4 Loco{11|11I9} 30m21 32r45
+17i4 Caboose{11|11I9} 28m21 33r48
+18r4 Blocks_Found{12|24R9} 34m47 41r28 44r27 46r30 66m7
+19r4 Turnouts_Found{12|45R9} 35m49 51r30 54r29 56r33 67m7
+20b4 Success{boolean} 36m48 38r10
+21e4 Continue{character} 64m24 65r17
+41i14 Block{integer} 42r38 44r47 46r50
+51i14 Turnout{integer} 52r38 54r51 56r55
+

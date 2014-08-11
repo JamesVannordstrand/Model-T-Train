@@ -1,0 +1,135 @@
+V "GNAT Lib v2013"
+M P W=b
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U test_blocks_beneath%b	layout-search-test.adb	fe2479be NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.enumeration_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W interfaces%s		interfac.ads		interfac.ali
+W layout%s		layout.adb		layout.ali
+W layout.search%s	layout-search.adb	layout-search.ali
+W system%s		system.ads		system.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-comlin.ads		20130417131018 e0accaa5
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tienau.ads		20130417131022 6a9c157b
+D a-tienio.ads		20130417131022 fc618ae6
+D a-tienio.adb		20130417131022 c9e6b5af
+D a-tiinau.ads		20130417131022 8114c8e4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-tiinio.adb		20130417131022 df9cd7af
+D a-unccon.ads		20130417131022 f9eb8f06
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D layout.ads		20140210140350 3bac5006
+D layout-search.ads	20140204022058 10ffb225
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-imenne.ads		20130417131030 8707cbf0
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-valenu.ads		20130417131034 bb1a4295
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D layout-search-test.adb  20140213225536 7060cb85
+X 1 ada.ads
+16K9*Ada 19e8 40|3r6 4r6 5r6 6r6 11r28 12r30 13r31 14r34 26r5 28r5 38r7 40r9
+. 41r9 43r9 45r9 48r7 50r9 51r9 53r9 55r9 58r7
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 40|3w10
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[14|45] 40|5w10 40r13 50r13
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 40|6w10
+X 9 a-textio.ads
+49K13*Text_IO 471e16 40|4w10 11r32 12r34 13r35 14r38 26r9 28r9 38r11 41r13
+. 43r13 45r13 48r11 51r13 53r13 55r13 58r11
+166U14*New_Line 40|45s21 55s21
+242U14*Put 40|26s17 28s17 41s21 43s21 51s21 53s21 58s19
+263U14*Put_Line 40|38s19 48s19
+X 11 a-tienio.ads
+44E9 Enum 40|13r59 14r62
+46k21*Enumeration_IO 75e31 40|13r43 14r46
+60U14 Put 40|44s21[13] 54s24[14]
+X 14 a-tiinio.ads
+45k21*Integer_IO 84e27 40|11r40 12r42
+55U14 Get 40|27s14[11] 29s14[11]
+65U14*Put 40|40s29[5|18] 42s18[11] 50s29[5|18] 52s20[12]
+X 19 layout.ads
+4K9*Layout 97e11 40|7w6 8r6 8r30 11r51 12r53 13r67 14r70 16r26 17r26 18r26
+. 19r26 31r5
+7E9*Block_Polarity 7e45 40|13r74
+9I9*Turnout_ID<short_short_integer> 40|12r60
+11I9*Block_ID<short_short_integer> 40|11r58 16r33 17r33
+17E9*Turn_Choice 17e45 40|14r77
+X 20 layout-search.ads
+1K16*Search 84e18 40|8w13 8r37 18r33 19r33 31r12
+15i10*Block{19|11I9} 40|42r49
+16e10*Direction{19|7E9} 40|44r52
+18A9*Block_Array(13R9)<integer>
+24R9*Block_List 28e17 40|18r40
+26i10*Size{natural} 40|39r38
+27a10*Items{18A9} 40|42m36 44m39
+36i10*Turnout{19|9I9} 40|52r55
+37e10*Direction{19|17E9} 40|54r59
+39A9*Turnout_Array(34R9)<integer> 40|8r44
+45R9*Turnout_List 49e17 40|19r40
+47i10*Size{natural} 40|49r42
+48a10*Items{39A9} 40|52m40 54m44
+54U14*Blocks_Beneath 40|31s19
+54i30 Loco{19|11I9} 40|31r35
+55i30 Caboose{19|11I9} 40|32r35
+56r30 Blocks{24R9} 40|33r35
+57r30 Turnouts{45R9} 40|34r35
+58b30 Success{boolean} 40|35r35
+X 40 layout-search-test.adb
+10U11*Test_Blocks_Beneath 10b11 70l5 70t24
+11K12 Block_IO[14|45] 27r5 29r5 42r9
+12K12 Turnout_IO[14|45] 52r9
+13K12 Polarity_IO[11|46] 44r9
+14K12 Turn_Choice_IO[11|46] 54r9
+16i4 Loco{19|11I9} 29m19 31r43
+17i4 Caboose{19|11I9} 27m19 32r46
+18r4 Blocks_Found{20|24R9} 33m45 39r25 42r23 44r26
+19r4 Turnouts_Found{20|45R9} 34m47 49r27 52r25 54r29
+20b4 Success{boolean} 35m46 37r8
+39i11 Block{integer} 40r34 42r42 44r45
+49i11 Turnout{integer} 50r34 52r46 54r50
+
